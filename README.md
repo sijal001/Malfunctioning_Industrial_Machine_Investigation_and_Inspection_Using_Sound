@@ -116,9 +116,9 @@ codit-usecase
 # Instruction
 #### How to get Prediction
 
-1. Setup python environment  `3.8.0`
-2. Install all libaries `pip install -r `requirements.txt`
-3. Download important "sound data" files, generate `csv` using 'get_data.py'
+1. Setup python environment  `3.8.0`.
+2. Install all libaries `pip install -r requirements.txt`.
+3. Download important "sound data" files, generate `csv` using 'get_data.py'.
 4. Run all `.ipynb` inside jupyter notebook to retrain and generate pickel files.
 5. Run `predict.py` and fill the information as requested and get the prediction.
  
