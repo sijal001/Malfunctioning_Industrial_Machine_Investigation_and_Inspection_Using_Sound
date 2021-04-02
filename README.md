@@ -25,6 +25,14 @@
 * To be able to present model to customer.
 * To be able to present a final product.
 
+# Data preprocessing
+In order to convert sound files to useable data points, we had to extract a number of discrete feautures from each audio file. We used the Python library Librosa, which can be used to read and analyse audio. Librosa provides a multitude of processing functions, in the time domain, and predominently in the frequency domain. After some experimentation, we selected about ten features, most of them based on the MEL spectrogram of each audio file -- a representation that is commonly used for ML in audio.
+
+Because most of this audio processing gives higher-dimensional results. decisions about how to collapse them into discrete numbers had to be made. Because of time restrictions, and because of promising results with the simple selection of mean, standard deviation and median (the latter we later dropped because of similarity to the mean) gave us good-enough results.
+However, we are aware that we loose some information, and not all subtitlities will be characterized. This is a domain in which futher imporvements could be reached, for example by representing some features by other, more suitable statistical aggregations.
+
+All the data preprocessing is done inside preprocessing.py, which holds functions to read the MIMII zip files, and apply Librosa processing on each wave file inside.
+
 
 # The Mission
 
