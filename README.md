@@ -70,7 +70,7 @@ This dataset is a sound dataset for malfunctioning industrial machine investigat
 * **Storage Requirement:** 100 GB 
 
 * ***Method :*** Manually Download all the file from link save to the respective folder.
-    * [Sound File Link](https://zenodo.org/record/3384388#.YGXS5ntR3-j)
+    * [Sound File Link](https://zenodo.org/record/3384388#.YGXS5ntR3-j)  >  move the `.zip` files inside `dataset` directory.
 
 
 # Repo Architecture
