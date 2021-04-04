@@ -76,7 +76,7 @@ This dataset is a sound dataset for malfunctioning industrial machine investigat
 # Repo Architecture
 
 ```
-codit-usecase
+Malfunctioning_Industrial_Machine_Investigation_and_Inspection_Using_Sound
 │
 │   README.md               :explains the project
 │   requirements.txt        :packages to install to run the program
