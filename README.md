@@ -70,7 +70,7 @@ This dataset is a sound dataset for malfunctioning industrial machine investigat
 * **Storage Requirement:** 100 GB 
 
 * ***Method :*** Manually Download all the file from link save to the respective folder.
-    * https://zenodo.org/record/3384388#.YGXS5ntR3-j
+    * [Sound File Link](https://zenodo.org/record/3384388#.YGXS5ntR3-j)
 
 
 # Repo Architecture
@@ -92,8 +92,8 @@ codit-usecase
 │   │ dataset		    ::directory contains all .pynb file that does the preprocessing and fearure extration .
 │     │__
 │	 processed_data     :directory contains the .csv files that contains the main machine features and information.
-│	 preprocessing.py   :
-│	 get_data.py        :
+│	 preprocessing.py   :python script file to preprocess ad grab the features
+│	 get_data.py        :python script file that read and manage all sound files
 │__   
 │  main		    	    :directory contain all the main .ipynb that create the machine model that train test and creates a pickel files.
 │   │
@@ -107,8 +107,8 @@ codit-usecase
 │   │ dataset		    ::directory contains all .pynb file that does the preprocessing and fearure extration .
 │     │__
 │	 processed_data     :directory contains the .csv files that contains the main machine features and information.
-│	 preprocessing.py   :
-│	 get_data.py        :
+│	 preprocessing.py   :python script file to preprocess ad grab the features
+│	 get_data.py        :python script file that read and manage all sound files
 ```
 
 ---
